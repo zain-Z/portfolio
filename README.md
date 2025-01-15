@@ -12,8 +12,6 @@
 ⚡️ Optimized with Parcel\
 ⚡️ Well organized documentation
 
-To view the demo: **[click here](https://the-simplefolio.netlify.app/)**
-
 ---
 
 ## Why do you need a portfolio? ☝️
