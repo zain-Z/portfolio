@@ -26,6 +26,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/index.4a508c1d.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
     <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <!-- Todo: remove the below script once you finish your portfolio -->
@@ -35,7 +37,8 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
+    <div id="tsparticles"></div>
+    
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
@@ -71,30 +74,13 @@
                 In this role, I have honed my analytical, managerial, and problem-solving skills, contributing to the company’s operational efficiency and success.<br><br>
                 Driven by a commitment to continuous learning, I actively stay updated with the latest industry trends to enhance my professional and technical expertise.<br><br>
                 I am passionate about leveraging my blend of technical and managerial skills to develop innovative solutions and contribute meaningfully to a forward-thinking organization.
-              </p>
-              <p class="about-wrapper__info-text">
-                </p><p><strong>Hobbies:</strong></p>
-<ul>
-  <li><strong>Coding & Problem-Solving:</strong> Enjoy exploring new technologies, solving coding challenges on platforms like LeetCode, and building personal projects.</li>
-  <li><strong>Gaming & Strategy:</strong> Passionate about strategy games that enhance critical thinking and decision-making skills.</li>
-  <li><strong>Learning & Self-Development:</strong> Continuously learning through online courses and tutorials to stay updated with industry trends.</li>
-  <li><strong>Fitness & Wellness:</strong> Value physical fitness and outdoor activities as a way to stay energized and focused.</li>
-</ul>
-
-<p><strong>Goals:</strong></p>
-<ul>
-  <li><strong>Short-Term Goals:</strong> To solidify expertise in full-stack web development and secure a challenging role in a forward-thinking organization.</li>
-  <li><strong>Long-Term Goals:</strong> To contribute to impactful projects, become a highly skilled senior developer, and mentor aspiring developers.</li>
-  <li><strong>Personal Aspiration:</strong> Build innovative tools or platforms that make everyday life easier while promoting open-source collaboration.</li>
-</ul>
-
-              <p></p>
+             
               <span class="d-flex mt-3">
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/resume.pdf">
                   View Resume
                 </a>
               </span>
-            </div>
+            </p></div>
           </div>
         </div>
       </div>
@@ -182,24 +168,23 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Face Detection</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    Coming soon , still working on it , you can follow up on github repo. by clicking on source code.
                   </p>
                 </div>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/zain-Z/face-recognition">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="#" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
                     <img alt="Project Image" class="img-fluid" src="/project.f500882b.jpg">
                   </div>
@@ -248,5 +233,75 @@
           <a rel="noreferrer" href="https://github.com/zain-Z" target="_blank">Zain Abo Almagd</a>
         </p>
     <script defer="" src="/index.975ef6c8.js"></script>
+    <script>tsParticles.load("tsparticles", {
+    fpsLimit: 120,
+    interactivity: {
+        events: {
+            onClick: {
+                enable: true,
+                mode: "push"
+            },
+            onHover: {
+                enable: true,
+                mode: "repulse"
+            },
+            resize: true
+        },
+        modes: {
+            push: {
+                quantity: 4
+            },
+            repulse: {
+                distance: 200,
+                duration: 0.9
+            }
+        }
+    },
+    particles: {
+        color: {
+            value: "#d3d3d3"
+        },
+        links: {
+            color: "#d3d3d3",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1
+        },
+        move: {
+            direction: "none",
+            enable: true,
+            outModes: {
+                default: "bounce"
+            },
+            random: false,
+            speed: 6,
+            straight: false
+        },
+        number: {
+            density: {
+                enable: true,
+                area: 800
+            },
+            value: 80
+        },
+        opacity: {
+            value: 0.5
+        },
+        shape: {
+            type: "circle"
+        },
+        size: {
+            value: {
+                min: 1,
+                max: 5
+            }
+        }
+    },
+    detectRetina: true
+});
+
+</script>
+    
   </div></footer></body>
 </html>

@@ -22,12 +22,17 @@
     "url": "https://github.com/zain-Z/portfolio/issues"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@parcel/babel-preset-env": "^2.13.3",
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.13.3",
     "prettier": "^2.8.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
     "bootstrap": "^5.2.3",
     "gh-pages": "^6.3.0",
     "jquery": "^3.6.3",

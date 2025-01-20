@@ -29,6 +29,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -41,7 +43,8 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
+    <div id="tsparticles"></div>
+    
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
@@ -318,5 +321,72 @@
           >
         </p>
     <script defer type="module" src="index.js"></script>
+    <script>
+      tsParticles.load("tsparticles", {
+        fpsLimit: 120,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
+            },
+            onHover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+          },
+        },
+        particles: {
+          color: {
+            value: "#d3d3d3",
+          },
+          links: {
+            color: "#d3d3d3",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+          },
+          move: {
+            direction: "none",
+            enable: true,
+            outModes: {
+              default: "bounce",
+            },
+            random: false,
+            speed: 6,
+            straight: false,
+          },
+          number: {
+            density: {
+              enable: true,
+              area: 800,
+            },
+            value: 80,
+          },
+          opacity: {
+            value: 0.5,
+          },
+          shape: {
+            type: "circle",
+          },
+          size: {
+            value: { min: 1, max: 5 },
+          },
+        },
+        detectRetina: true,
+      });
+    </script>
+    
   </body>
 </html>

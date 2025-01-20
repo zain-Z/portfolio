@@ -602,6 +602,7 @@ var _scrollRevealDefault = parcelHelpers.interopDefault(_scrollReveal);
 var _tiltAnimation = require("./scripts/tiltAnimation");
 var _tiltAnimationDefault = parcelHelpers.interopDefault(_tiltAnimation);
 var _scrollRevealConfig = require("./data/scrollRevealConfig");
+// Initialize scroll reveal and tilt effect
 (0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
 (0, _tiltAnimationDefault.default)();
 

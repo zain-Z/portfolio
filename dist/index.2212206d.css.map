@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/index.css"],"sourcesContent":[".particles {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1; /* Ensure it's above other elements */\r\n  }\r\n  "],"names":[],"version":3,"file":"index.2212206d.css.map","sourceRoot":"/__parcel_source_root/"}
