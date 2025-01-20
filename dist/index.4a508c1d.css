@@ -13730,11 +13730,10 @@ section {
 }
 
 #tsparticles {
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
 }
 /*# sourceMappingURL=index.4a508c1d.css.map */
