@@ -171,14 +171,53 @@
                 <h3 class="project-wrapper__text-title">Face Detection</h3>
                 <div>
                   <p class="mb-4">
-                    Coming soon , still working on it , you can follow up on github repo. by clicking on source code.
+                      A full-stack web application built using <strong>React</strong> for the frontend and <strong>Node.js</strong> for the backend. 
+                      It utilizes the <strong>Clarifai Face Detection Model</strong> to analyze images and detect faces. 
+                      The backend is powered by <strong>Express.js</strong> and stores user data and detection history in a <strong>PostgreSQL</strong> database. 
+                      This project demonstrates my ability to integrate third-party APIs, manage a robust backend, and build an interactive and responsive frontend.
+                  </p>
+          
+                  <h2>Technologies Used</h2>
+                  <ul>
+                      <li><strong>Frontend:</strong> React.js, tsparticles/react (for UI enhancements), Tailwind CSS</li>
+                      <li><strong>Backend:</strong> Node.js, Express.js</li>
+                      <li><strong>Database:</strong> PostgreSQL</li>
+                      <li><strong>API Integration:</strong> Clarifai Face Detection Model</li>
+                      <li><strong>Authentication:</strong> User login and registration with hashed passwords</li>
+                  </ul>
+          
+                  <h2>Challenges and Solutions</h2>
+                  <h3>1. Managing CORS Issues</h3>
+                  <p><strong>Obstacle:</strong> While connecting the frontend and backend, I encountered CORS (Cross-Origin Resource Sharing) errors.</p>
+                  <p><strong>Solution:</strong> Used the <code>cors</code> package in Node.js and configured it properly to allow only the necessary origins to access the backend.</p>
+          
+                  <h3>2. Database Setup & Queries</h3>
+                  <p><strong>Obstacle:</strong> Writing efficient queries for user authentication and tracking face detection history in PostgreSQL required optimization.</p>
+                  <p><strong>Solution:</strong> Implemented <strong>Knex.js</strong> as a query builder, indexed frequently accessed data, and optimized database queries to enhance performance.</p>
+          
+                  <h3>3. Frontend Performance & UI Enhancements</h3>
+                  <p><strong>Obstacle:</strong> Rendering large images and multiple face detections slowed down the UI.</p>
+                  <p><strong>Solution:</strong> Used React’s <code>useEffect</code> for efficient state updates and implemented lazy loading for images to improve performance.</p>
+          
+                  <h2>Key Takeaways</h2>
+                  <ul>
+                      <li>Successfully built a full-stack application integrating AI-powered face detection.</li>
+                      <li>Strengthened my ability to solve backend integration challenges.</li>
+                      <li>Improved performance optimizations in React and PostgreSQL.</li>
+                      <li>Learned best practices for API security and deployment strategies.</li>
+                  </ul>
+                  <p>
+                      This project was a great learning experience, refining my skills in 
+                      <strong>full-stack development, API integration, and problem-solving</strong>.
                   </p>
                 </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/zain-Z/face-recognition-api">
+                  Backend Source Code
                 </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/zain-Z/face-recognition">
-                  Source Code
+                <br>
+                <br>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/zain-Z/face-recognition">
+                  Frontend Source Code
                 </a>
               </div>
             </div>
@@ -186,7 +225,16 @@
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src="/project.f500882b.jpg">
+                    <img alt="Project Image" class="img-fluid" src="/face-recognition.7eb8c541.png">
+                   
+                  </div>
+                </a>
+                <br>
+                <br>
+                <a rel="noreferrer" href="#" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/clarifai.28bd263e.png">
+                   
                   </div>
                 </a>
               </div>
